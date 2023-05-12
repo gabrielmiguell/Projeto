@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: #fff;
+    color: #595959;
+
+
+    height: 2000px;
+
+}
+
+header {
+    height: 100px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.logo{
+    position: relative;
+    left: 3rem;
+
+    display: flex;
+
+
+}
+.logo p{
+    color: #157145;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+nav {
+    position: relative;
+    right: 20rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+nav .itensMenu{
+    color: #595959;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 25px; 
+
+
+
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+.sessaoPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+
+}
+
+.conteudoTexto .conteudoBtn button{
+    background: #157145;
+    color:#fff;
+
+    font-size: 20px;
+
+    position: relative;
+    height: 50px;
+    width: 20rem;
+
+    border: 2px solid #157145;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
